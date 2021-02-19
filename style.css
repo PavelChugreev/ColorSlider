@@ -1,0 +1,45 @@
+#red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+    border: 1px solid grey;
+}
+#swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    padding: 5px;
+    background-image: none;
+}
+
+.color, .bg {
+    padding: 5px;
+}
+
+.active {
+    background-color: rgb(138, 140, 255);
+}
+
+#red .ui-slider-range { 
+    background: #ef2929; 
+    height: 15px;
+}
+#red .ui-slider-handle {
+    border-color: #ef2929; 
+}
+#green .ui-slider-range { 
+    background: #8ae234;  
+    height: 15px;
+}
+#green .ui-slider-handle { 
+    border-color: #8ae234; 
+}
+#blue .ui-slider-range { 
+    background: #729fcf; 
+    height: 15px; 
+}
+#blue .ui-slider-handle { 
+    border-color: #729fcf; 
+}
